@@ -1,0 +1,24 @@
+基地址(起始地址):Base Address	
+偏移地址
+数据存储地址 = 基地址 + 偏移量
+BMP图片内部采取小端存储
+验证大小端标准答案
+union 
+{
+	int a;
+	char b;
+}c;
+
+int main()
+{
+	c.a = 0x11223344;
+	if(a.b == 0x11)
+	printf("")
+	return 0;
+}
+
+question:
+	色深
+	bmp几通道
+	rgm为啥整体看跟数组有什么区别
+	位移操作补符号位
